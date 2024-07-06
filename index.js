@@ -84,7 +84,7 @@ function pay() {
   cash.value = "";
   change.value = "";
 
-  alert("Thank you for your order! If the shoe fits, walk in it 'til it break");
+  alert("Thank you Purchase! Jump HIGH");
 }
 
 qty1.addEventListener("keyup", addOrder);
