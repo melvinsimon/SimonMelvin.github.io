@@ -65,6 +65,15 @@ function addOrder(){
     total.value = '₱ ' + totalPrice.toFixed(2);
     calculateChange();
 }
+function purchase() {
+    carts.textContent = "";
+
+    total.value = "";
+    cash.value = "";
+    change.value = "";
+
+    alert("Thank you for Purchase!);
+    }
 
 function calculateChange() {
     let totalPrice = parseFloat(total.value.replace('₱ ', ''));
